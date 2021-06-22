@@ -11,7 +11,7 @@
 
     <div style="color:blue">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2>Predictive analysis</h2>
+            <h1>Predictive analysis</h1>
             <h3>Year</h3>
             <input id="first" name="Year" type="number ">
             <h3>What is the Showroom Price?(In lakhs)</h3><br><input id="second" name="Present_Price" required="required">
@@ -47,8 +47,11 @@
 
 
     <style>
+        h1{
+            color : #ff0000;
+        }
         body {
-            background-color: #53c4aaeb;
+            background-color: #a8d1fa;
             text-align: center;
             padding: 0px;
         }
@@ -123,7 +126,7 @@
         }
         
         #sub:hover {
-            background-color: darkcyan;
+            background-color: #41f35f;
         }
         
         #first {
